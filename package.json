@@ -1,0 +1,43 @@
+{
+  "name": "alfred-unsplash-source",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow to generate embed URLs for Unsplash photos.",
+  "main": "index.js",
+  "author": {
+    "name": "Kyle Brumm",
+    "email": "kjbrumm@gmail.com",
+    "url": "http://kylebrumm.com"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjbrum/alfred-unsplash-source.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfred-workflow",
+    "alfred3-workflow",
+    "unsplash",
+    "placeholder",
+    "photos",
+    "images",
+    "alfy"
+  ],
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbrum/alfred-unsplash-source/issues"
+  },
+  "homepage": "https://github.com/kjbrum/alfred-unsplash-source#readme",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  }
+}
