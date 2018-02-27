@@ -26,6 +26,7 @@ In Alfred, type `splash`, <kbd>Enter</kbd>, and the size of photo you need (WIDT
 
 ## TODO
 
+- Update documentation
 - Daily option
 - Weekly option
 - Look into using JS wrapper (https://github.com/unsplash/unsplash-source-js)

@@ -1,8 +1,8 @@
 'use strict';
 
 const alfy = require('alfy');
-const api = 'https://source.unsplash.com';
 
+const api = 'https://source.unsplash.com';
 const size = alfy.input;
 const re = /^([0-9]+x[0-9]+)$/gi;
 const isValidSize = size.match(re);
