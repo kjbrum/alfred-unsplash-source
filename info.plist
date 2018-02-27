@@ -8,6 +8,19 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>28A64332-9366-4532-AFB7-7A2FBBF85B81</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>84410BE6-BDAC-409B-9AB4-AA932F68C583</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B295712F-2281-44A9-A47A-46ED7F0B14A0</key>
 		<array>
 			<dict>
@@ -33,16 +46,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>28A64332-9366-4532-AFB7-7A2FBBF85B81</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>84410BE6-BDAC-409B-9AB4-AA932F68C583</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -150,23 +153,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>28A64332-9366-4532-AFB7-7A2FBBF85B81</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -185,6 +171,23 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>28A64332-9366-4532-AFB7-7A2FBBF85B81</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Version 1.0</string>
@@ -195,28 +198,28 @@
 			<key>xpos</key>
 			<integer>320</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>150</integer>
 		</dict>
 		<key>28A64332-9366-4532-AFB7-7A2FBBF85B81</key>
 		<dict>
 			<key>xpos</key>
 			<integer>320</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>450</integer>
 		</dict>
 		<key>84410BE6-BDAC-409B-9AB4-AA932F68C583</key>
 		<dict>
 			<key>xpos</key>
-			<integer>320</integer>
+			<integer>490</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>450</integer>
 		</dict>
 		<key>A46CD3B0-E4C0-408C-BC66-72E23842689E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>320</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>300</integer>
 		</dict>
 		<key>B295712F-2281-44A9-A47A-46ED7F0B14A0</key>
 		<dict>
@@ -237,7 +240,7 @@
 		<key>query:user</key>
 		<string>kylebrumm</string>
 		<key>query:user-likes</key>
-		<string></string>
+		<string>kylebrumm</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
